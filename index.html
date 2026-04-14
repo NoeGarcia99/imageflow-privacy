@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ImageFlow — Privacy Policy</title>
+  <title>ImageFlow — Help &amp; Privacy Policy</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -51,6 +51,18 @@
     }
     a { color: #0071e3; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    nav { display: flex; gap: 24px; margin-bottom: 8px; }
+    nav a { font-size: 15px; font-weight: 500; color: #0071e3; }
+    .section-divider { border: none; border-top: 1px solid #e0e0e5; margin: 48px 0; }
+    .shortcut-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    .shortcut-table th { text-align: left; font-size: 13px; color: #6e6e73; font-weight: 500;
+      padding: 8px 12px; border-bottom: 1px solid #e0e0e5; }
+    .shortcut-table td { padding: 10px 12px; font-size: 15px; color: #3a3a3c;
+      border-bottom: 1px solid #f2f2f7; }
+    .shortcut-table tr:last-child td { border-bottom: none; }
+    kbd { display: inline-block; background: #f2f2f7; border: 1px solid #d1d1d6;
+      border-radius: 5px; padding: 2px 7px; font-size: 13px; font-family: -apple-system, monospace;
+      color: #1d1d1f; white-space: nowrap; }
   </style>
 </head>
 <body>
@@ -58,12 +70,63 @@
 <header>
   <div>
     <h1>ImageFlow</h1>
-    <span>Privacy Policy</span>
+    <span>Help &amp; Privacy</span>
   </div>
 </header>
 
 <div class="container">
-  <h2>Privacy Policy</h2>
+
+  <!-- ── Navigation ─────────────────────────────────────────────── -->
+  <nav>
+    <a href="#help">Help</a>
+    <a href="#privacy">Privacy Policy</a>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       HELP SECTION
+  ══════════════════════════════════════════════════════════════════ -->
+  <h2 id="help">ImageFlow Help</h2>
+  <p class="updated">Version 1.0</p>
+
+  <h3>Getting Started</h3>
+  <p>Open any image by double-clicking it in Finder with ImageFlow set as the viewer, dragging an image onto the app icon, or using <kbd>⌘ O</kbd> from within the app. ImageFlow automatically finds all images in the same folder so you can navigate between them.</p>
+
+  <h3>Keyboard Shortcuts</h3>
+  <table class="shortcut-table">
+    <thead>
+      <tr>
+        <th>Action</th>
+        <th>Shortcut</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Open image…</td>             <td><kbd>⌘ O</kbd></td></tr>
+      <tr><td>Next image</td>              <td><kbd>→</kbd></td></tr>
+      <tr><td>Previous image</td>          <td><kbd>←</kbd></td></tr>
+      <tr><td>Zoom in</td>                 <td><kbd>⌘ +</kbd></td></tr>
+      <tr><td>Zoom out</td>                <td><kbd>⌘ -</kbd></td></tr>
+      <tr><td>Fit to screen / Reset zoom</td><td><kbd>⌘ 0</kbd></td></tr>
+      <tr><td>Rotate left</td>             <td><kbd>⌘ [</kbd></td></tr>
+      <tr><td>Rotate right</td>            <td><kbd>⌘ ]</kbd></td></tr>
+      <tr><td>Toggle fullscreen</td>       <td><kbd>⌃ ⌘ F</kbd></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Trackpad Gestures</h3>
+  <p>Swipe left or right with two fingers to navigate between images. Pinch to zoom in and out.</p>
+
+  <h3>Supported Formats</h3>
+  <p>JPEG, PNG, HEIC/HEIF, GIF, TIFF, BMP, WebP.</p>
+
+  <h3>Contact & Support</h3>
+  <p>Having trouble? Write to us at <a href="mailto:noe.aarongarcia@gmail.com">noe.aarongarcia@gmail.com</a> and we'll get back to you.</p>
+
+  <hr class="section-divider">
+
+  <!-- ══════════════════════════════════════════════════════════════
+       PRIVACY POLICY SECTION
+  ══════════════════════════════════════════════════════════════════ -->
+  <h2 id="privacy">Privacy Policy</h2>
   <p class="updated">Last updated: April 12, 2026</p>
 
   <div class="highlight">
